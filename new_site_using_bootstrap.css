@@ -24,6 +24,9 @@
 	.topic{
 		text-align: center;
 	}
+	.list-group-item a{
+		color: green;
+	}
 	#tech-img{
 		width: 100%;
 		margin: 0 auto;
