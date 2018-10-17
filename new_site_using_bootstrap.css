@@ -24,8 +24,8 @@
 	.topic{
 		text-align: center;
 	}
-	.list-group-item a{
-		color: green;
+	.list-group  a{
+		color: rgb(148, 148, 221);
 	}
 	#tech-img{
 		width: 100%;
