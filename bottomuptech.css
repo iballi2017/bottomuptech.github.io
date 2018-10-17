@@ -46,6 +46,9 @@
 		background: url("photo-1478358161113-b0e11994a36b.jpeg");
 		background-size: 100% 100%;
 	}
+	#mobile-more-news{
+		display: none;
+	}
 	footer{
 		margin-top: 50px;
 	}
@@ -55,6 +58,29 @@
 	footer .mobile-social-handle{
 		display: none;
 	}
+
+
+
+
+@media only screen and (max-width: 768px){
+	body{
+		/* background: red; */
+	}
+	#desktop-more-news{
+		display: none;
+	}
+	#mobile-more-news{
+		display: block;
+	}
+	.img-google{
+		width: 30%;
+		height: 200px;
+	}
+
+}
+
+
+
 
 @media only screen and (max-width: 425px) {
 	.menu-button{
@@ -86,6 +112,12 @@
 	.img-google{
 		width: 68%;
 		margin: 0 auto;
+	}
+	#desktop-more-news{
+		display: none;
+	}
+	#mobile-more-news{
+		display: block;
 	}
 	footer .social-handle{
 		display: none;
