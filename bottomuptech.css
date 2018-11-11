@@ -58,6 +58,11 @@
 	footer .mobile-social-handle{
 		display: none;
 	}
+	.carousel-caption{
+		color: #22057090;
+    	text-align: center;
+    	background:rgba(255,255,255,0.4);
+	}
 
 
 
