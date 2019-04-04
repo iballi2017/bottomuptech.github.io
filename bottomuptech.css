@@ -71,6 +71,12 @@
 	body{
 		/* background: red; */
 	}
+	.menu-button{
+		display: block;
+	}
+	.nav{
+		display: none;
+	}
 	#desktop-more-news{
 		display: none;
 	}
